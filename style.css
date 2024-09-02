@@ -1,0 +1,592 @@
+body{
+    margin: 0px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    padding: 1vh 20vh;
+}
+
+.logo img{
+    height: 10vh;
+}
+
+.menu li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo, .right-side-nav{
+    display: flex;
+    margin-left: 5vh;
+}
+
+.logo{
+    width: 30%;
+   
+}
+
+
+.right-side-nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5vh;
+
+}
+
+.btns{
+    display: flex;
+    margin-left: 30vh;
+    gap: 2vh;
+}
+
+.btns button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+    
+}
+
+.btn-one {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    
+}
+
+.btn-two{
+    background-color: #ed1c24;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+
+.menu{
+    display: flex;
+    gap: 5vh;
+}
+
+.btn-two i{
+   background-color: #fff;
+   color: #ed1c24;
+   padding: 5px;
+   border-radius: 100%;
+   margin-left: 1vh;
+}
+
+
+/* slider start  */
+.slider{
+    width: 100%;
+    height: 500px;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-intro{
+   
+    height: 500px;
+    background-color: #000000;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.text-intro h2 {
+    margin: 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.text-intro  p{
+    color: #fff;
+}
+
+
+.text-intro h2 span {
+    font-family: fantasy;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+
+
+
+.card-logo{
+    text-align: center;
+    width: 24vh;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-logo img {
+    width: 70%;
+    
+}
+
+
+.card-button button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    display: flex;
+}
+
+.card-button{
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+
+.card-conatiner{
+    margin-top: 8vh;
+    align-items: center;
+
+}
+
+.card{
+    display: inline-block;
+    
+}
+
+.center-card{
+    margin: 0px 20px;
+}
+
+.text-second-intro{
+    background-color: #0F0F0F;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.text-second-intro h2 {
+    margin: 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.text-second-intro  p{
+    color: #fff;
+
+}
+
+
+.text-second-intro h2 span {
+    font-family: fantasy;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+}
+.text-second-intro h4{
+    color: #ed1c24;
+    
+}
+
+.one-side-text{
+    display: block;
+    float: left;
+    margin-top: 4vh;
+    margin-left: 30vh;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+}
+
+
+.right-side-image img{
+    margin-top: 4vh;
+    
+}
+
+.card-button-side button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    display: flex;
+    margin-top: 4vh;
+}
+
+
+.one-next-side-text{
+    
+    float: right;
+    margin-top: 4vh;
+    margin-right: 30vh;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    margin-left: 2.5vh;
+}
+
+
+.right-side-image img{
+    margin-top: 4vh;
+    
+}
+
+.card-button-side button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    display: flex;
+    margin-top: 4vh;
+}
+
+
+.text-third-intro{
+    background-color: #000000;
+    text-align: center;
+    padding: 50px;
+}
+
+.text-third-intro h2 {
+    margin: 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.text-third-intro h2 span {
+    font-family: fantasy;
+    font-size: xx-large;
+    letter-spacing: 4px;
+    
+}
+
+
+
+
+.card-second-logo{
+    text-align: center;
+    width: 24vh;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+.card-button button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    display: flex;
+}
+
+.card-button{
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+
+.card-second-conatiner{
+    margin-top: 8vh;
+    align-items: center;
+
+}
+
+.card-second{
+    display: inline-block;
+    
+}
+
+.center-card{
+    margin: 0px 20px;
+}
+
+.third-part-text h4 {
+    color: #ed1c24;
+    letter-spacing: 3px;
+}
+.third-part-text H3{
+    color: #fff;
+}
+.third-part-text H3 span{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+ 
+.third-part-text p{
+    color: #fff;
+    font-size: small;
+}
+
+
+.card-second-button button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.card-second-button{
+    margin-left: 10vh;
+    margin-top: 4vh;
+    
+}
+
+.btn-three{
+    background-color: #ed1c24;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+
+.btn-three i{
+   background-color: #fff;
+   color: #ed1c24;
+   padding: 5px;
+   border-radius: 100%;
+   margin-left: 1vh;
+}
+
+
+.one-cha-side-text{
+    
+    float: right;
+    margin-top: 4vh;
+    margin-right: 40vh;
+}
+.one-cha-side-text h4{
+    margin-right: 30vh;
+}
+
+
+
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-box {
+    flex: 1 1 auto;
+    max-width: 20%;
+    position: relative;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #333;
+}
+
+.locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.location-box {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 300px;
+    height: 230px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.status {
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+
+/* footer  */
+
+
+.footer {
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 220px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section form {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin: 20px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-apps {
+    margin-top: 20px;
+}
+
+.footer-apps a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-apps img {
+    width: 140px;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    max-width: 300px;
+}
+
+.footer-section form button {
+    padding: 10px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-section form button:hover {
+    background-color: #d32f2f;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* responsive  */
